@@ -1,0 +1,208 @@
+%------------------------------------
+% Dario Taraborelli
+% Typesetting your academic CV in LaTeX
+%
+% URL: http://nitens.org/taraborelli/cvtex
+% DISCLAIMER: This template is provided for free and without any guarantee 
+% that it will correctly compile on your system if you have a non-standard  
+% configuration.
+% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt, a4paper]{article}
+\usepackage{fontspec} 
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textwidth=5.35in, textheight=10.1in, marginparsep=7pt, marginparwidth=.6in, right=0.8in, left=1.25in}
+\setlength\parindent{0in}
+
+% FONTS
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text}
+%\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O}
+%\setmonofont[Scale=0.8]{Monaco}
+%%% modified by Karol Kozioł for ShareLaTeX use
+\setmainfont[
+  Ligatures={Common}, Numbers={OldStyle}, Variant=01,
+  BoldFont=LinLibertine_RB.otf,
+  ItalicFont=LinLibertine_RI.otf,
+  BoldItalicFont=LinLibertine_RBI.otf
+]{LinLibertine_R.otf}
+\setmonofont[Scale=0.8]{DejaVuSansMono.ttf}
+
+% ---- CUSTOM COMMANDS
+\chardef\&="E050
+\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+\newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\amper{}}{\chardef\amper="E0BD }
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\mdseries\upshape\Large}
+\subsectionfont{\mdseries\scshape\normalsize} 
+\subsubsectionfont{\mdseries\upshape\large} 
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+\usepackage[%dvipdfm, 
+bookmarks, colorlinks, breaklinks, 
+% ---- FILL IN HERE THE TITLE AND AUTHOR
+	pdftitle={Camilo Acosta - vita},
+	pdfauthor={Camilo Acosta},
+	%pdfproducer={http://nitens.org/taraborelli/cvtex}
+]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
+% DOCUMENT
+\begin{document}
+\begin{flushright}
+\scriptsize{Last updated: \today}
+\end{flushright}
+{\LARGE Junhui Yang}\\[.3cm]
+{\small Rotman School of Management, University of Toronto \\
+105 St George St, Toronto, ON M5S 3E6, Canada}\\[.1cm]
+{\small Email: \href{mailto: junhui.yang@rotman.utoronto.ca}{junhui.yang@rotman.utoronto.ca}} \\[.1cm]
+{\small Personal Website: \href{https://yjhjaja.github.io}{https://yjhjaja.github.io}
+
+\section*{Research Interests}
+Urban Economics • Economic Geography • Empirical Industrial Organization
+
+%\hrule
+\section*{Education}
+\noindent
+\years{2019-2025}{\small Ph.D. Management, Concentration in Economic Analysis and Policy, University of Toronto}\\[.1cm]
+	{\small \tab Committee: Nathaniel Baum-Snow (co-supervisor), Stephan Heblich (co-supervisor), William C. Strange}\\[.1cm]
+\years{Spring 2024}{\small Visiting Research Student, London School of Economics (LSE)}\\[.1cm]
+\years{2017-2019}{\small M.A. Economics and Finance, Centro de Estudios Monetarios y Financieros (CEMFI), Spain}\\[.1cm]
+\years{2013-2017}{\small B.A. Economics, Xiamen University (XMU), China}\\[.1cm]
+\years{Spring 2016}{\small Exchange Student, Universidad Carlos III de Madrid (UC3M), Spain}
+
+\section*{Research}
+{\small ``Land Use Regulation as a Barrier to Entry: Evidence from Minimum Parking Requirements in Retail and Local Services'' (Job Market Paper) \\[.15cm]
+{\small ``Bus Network Redesign, Commuting and Welfare: Evidence from Houston'' (working paper, revise and resubmit at \textit{Journal of Urban Economics})} \\[.1cm]
+{\small ``Ice Roads'' with Victor Aguirregabiria and Stephan Heblich (work in progress)}
+
+%%\hrule
+%\section*{Work in Progress}
+
+\section*{Policy Article}
+{\small ``Competition in Canada from 2000 to 2020: An Economy at a Crossroads'' with Ramin Fourouzandeh, Matthew Osborne and Farhang Shamsoddin} 
+
+\section*{Teaching Assistantship}
+{\small RSM 483: Real Estate Markets (undergraduate, $\times$ 3)}\\[.1cm]
+{\small RSM 1210: Managerial Economics (MBA)}\\[.1cm]
+{\small RSM 2122: Clean Energy: Policy Context and Business Opportunities (MBA)}\\[.1cm]
+{\small RSM 2128: Real Estate Economics (MBA)}\\[.1cm]
+{\small MGE B11: Quantitative Methods in Economics I (undergraduate, $\times$ 2)}\\[.1cm]
+{\small MGE C06: Topics in Macroeconomic Theory (undergraduate)}\\[.1cm]
+{\small MGE D02: Advanced Microeconomic Theory (undergraduate)}\\[.1cm]
+{\small MGE D11: Theory and Practice of Regression Analysis (undergraduate)}\\[.1cm]
+{\small GLA 2071: Topics in Markets II: Environmental Economics (graduate, $\times$ 2)}\\[.1cm]
+{\small GLA 2081: Topics in Innovation II: Technology Policy (graduate, $\times$ 2)}
+
+\section*{Research Assistantship}
+\years{2021-2023}{\small Stephan Heblich, University of Toronto}\\[.1cm]
+\years{2021}{\small Yue Yu, University of Toronto}\\[.1cm]
+\years{2018}{\small Diego Puga, CEMFI}
+
+%%\hrule
+\section*{Honors \& Awards}
+\noindent
+\years{2024}{University of Toronto Doctoral Completion Award}\\[.1cm]
+\years{2024}{University of Toronto International Experience Award +}\\[.1cm]
+\years{2023}{PhD Student Fellow, Center for Real Estate and Urban Economics, Rotman School of Management}\\[.1cm]
+\years{2019-2025}{University of Toronto Doctoral Fellowship}\\[.1cm]
+\years{2017-2019}{CEMFI Master's Program Full Scholarship}
+
+\section*{Conferences \& Talks}
+\noindent
+\years{2024}{\small LSE Economic Geography Seminar (London)}\\[.1cm]
+\years{2022}{\small Urban Economics Association Summer School (Barcelona)}\\[.1cm]
+\years{2022}{\small European Meeting of Urban Economics Association (London)}
+%%\hrule
+\section*{Referee Service}
+\noindent
+{\small Journal of Urban Economics ($\times$ 2)}
+
+%\hrule
+\section*{Data Clearance}
+Research Data Center, Statistics Canada
+
+\section*{Skills}
+Languages: Mandarin Chinese (native), English (fluent), Spanish (intermediate)\\[.1cm]
+Programming: Python, R, SQL, PySpark (in DataBricks), AWS SageMaker, Azure, MATLAB, ArcGIS, Julia, Stata
+
+\section*{References}
+\noindent\begin{tabular}{@{}lll}
+Nathaniel Baum-Snow                 &  Stephan Heblich & William C. Strange           \\
+Rotman School of Management   &  Department of Economics & Rotman School of Management  \\
+University of Toronto     &  University of Toronto  & University of Toronto  \\
+105 St\ George St        & 150 St George St & 105 St George St       \\
+Toronto, Ontario          & Toronto, Ontario  & Toronto, Ontario        \\
+ M5S 3E6, Canada           & M5S 3G7, Canada  & M5S 3E6, Canada          \\
+nate.baum.snow@rotman.utoronto.ca      & stephan.heblich@utoronto.ca & william.strange@rotman.utoronto.ca\\
++1-416-978-4273           & +1-416-978-4622   & +1-416-978-1949        \\\end{tabular}
+
+\newpage
+\begin{center}
+\LARGE
+\textbf{Abstracts}
+\normalsize
+\end{center}
+\line(1,0){505}
+
+\begin{center}
+\LARGE
+\textbf{Land Use Regulation as a Barrier to Entry: Evidence from Minimum Parking Requirements in Retail and Local Services}\\
+\large
+(Job Market Paper)
+\normalsize
+\end{center}
+
+I study the cost impacts of minimum parking requirement (MPRs) for retail and local services firms. As a common North American land use regulation, MPRs require firms to provide parking proportional
+to size upon opening and operating. I derive exogenous sources of variation from a 2012 reform in Seattle that reduced MPRs in only parts of the city and created arbitrary boundaries. I find extensive
+margin effects of MPR reductions, which positively impacted firm entry, survival, and related local outcomes, implying MPRs increase firm entry and fixed costs. I build a dynamic game model of entry
+and exit to quantify and find MPRs raise entry costs by 24 percent. A local market would have at least one percent more firms if its MPRs were removed.  \\
+
+\bigskip
+\begin{center}
+\LARGE
+\textbf{Bus Network Redesign, Commuting and Welfare: Evidence from Houston}\\
+\normalsize
+\end{center}
+In August 2015, Houston rolled out a complete redesign of its bus route network. This came in response to falling ridership, a new light rail system, and new employment centers. This paper evaluates the
+consequences for commuting patterns and welfare. Using old bus routes as the instrumental variable, at the census tract pair level, I find a one-minute travel time reduction due to the redesign led to
+a 0.94\% increase in the number of commuters from 2014 to 2018. I also find large extensive margin effects. Evaluated through a quantitative spatial equilibrium model with mode choice, the redesign was
+welfare-improving. My counterfactual exercises bring new insights on the importance of connecting buses to intermodal transfer points, population and employment centers. My contributions include
+that I provide a first study of the bus to the transit policy evaluation literature, and that I study a cheap re- optimization, instead of a costly expansion, of transit.
+
+\bigskip
+\begin{center}
+\LARGE
+\textbf{Ice Roads}\\
+\large
+with Victor Aguirregabiria and Stephan Heblich
+\normalsize
+\end{center}
+This paper examines the impact of global warming on the presence of ice roads in Northern Canada, which are crucial for transporting essential goods to remote Northern communities, particularly First
+Nations. In recent decades, the operational duration of ice roads has diminished, resulting in a higher reliance on costly supply flights. To assess the consequences on food security, we exploit data from
+Nutrition North Canada (NNC), which offers subsidies for shipping costs by air, ice road, or sea to eligible communities. As expected, the reduced avail- ability of ice roads has led to higher prices and
+lower consumption. Our study employs these insights to simulate potential future scenarios driven by ongoing climate change and evaluates the costs and benefits of policy measures aimed at mitigating
+the impact of dwindling winter roads. \\
+
+\end{document}
