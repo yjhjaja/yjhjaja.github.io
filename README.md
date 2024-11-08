@@ -1,6 +1,6 @@
-# Homepage Yongkun Yin
+# Homepage Junhui Yang
 
-[Homepage Yongkun Yin](https://yongkun-yin.github.io/)
+[Homepage Junhui Yang](https://yjhjaja.github.io/)
 
 
 # License

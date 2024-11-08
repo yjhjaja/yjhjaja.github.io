@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.29)  7 NOV 2024 19:08
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.29)  7 NOV 2024 20:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -332,6 +332,15 @@ File: greek-fontenc.def 2023-09-12 2.5 Common Greek font encoding definitions
 Package hyperref Info: Option `bookmarks' set `true' on input line 4051.
 Package hyperref Info: Option `colorlinks' set `true' on input line 4051.
 Package hyperref Info: Option `breaklinks' set `true' on input line 4051.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 4051.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 4051.
+
 Package hyperref Info: Hyper figures OFF on input line 4168.
 Package hyperref Info: Link nesting OFF on input line 4173.
 Package hyperref Info: Hyper index ON on input line 4176.
@@ -340,7 +349,6 @@ Package hyperref Info: Backreferencing OFF on input line 4188.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4435.
 \c@Hy@tempcnt=\count282
-
 (c:/texlive/2023/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
