@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.29)  11 NOV 2024 10:00
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.29)  11 NOV 2024 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -664,10 +664,10 @@ Package rerunfilecheck Info: File `YangJunhui_CV_202411.out' has not changed.
 ### simple group (level 1) entered at line 80 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 15765 strings out of 475060
- 297387 string characters out of 5767996
- 1935667 words of memory out of 5000000
- 37460 multiletter control sequences out of 15000+600000
+ 15764 strings out of 475060
+ 297372 string characters out of 5767996
+ 1936667 words of memory out of 5000000
+ 37459 multiletter control sequences out of 15000+600000
  559370 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  79i,9n,102p,1016b,465s stack positions out of 10000i,1000n,20000p,200000b,200000s
