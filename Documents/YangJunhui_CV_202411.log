@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.29)  15 NOV 2024 16:34
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.29)  19 NOV 2024 11:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -596,57 +596,67 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Package marginnote Info: Margin note 2.1 is on absolute page 2 on input line 12
-8.
-Package marginnote Info: right page because not two side mode on input line 128
+6.
+Package marginnote Info: right page because not two side mode on input line 126
 .
-Package marginnote Info: xpos seems to be 90.3375pt on input line 128.
+Package marginnote Info: xpos seems to be 90.3375pt on input line 126.
 Package marginnote Info: Margin note 2.2 is on absolute page 2 on input line 12
-9.
-Package marginnote Info: right page because not two side mode on input line 129
+7.
+Package marginnote Info: right page because not two side mode on input line 127
 .
-Package marginnote Info: xpos seems to be 90.3375pt on input line 129.
+Package marginnote Info: xpos seems to be 90.3375pt on input line 127.
 Package marginnote Info: Margin note 2.3 is on absolute page 2 on input line 13
-0.
-Package marginnote Info: right page because not two side mode on input line 130
-.
-Package marginnote Info: xpos seems to be 90.3375pt on input line 130.
-Package marginnote Info: Margin note 2.4 is on absolute page 2 on input line 13
-1.
-Package marginnote Info: right page because not two side mode on input line 131
-.
-Package marginnote Info: xpos seems to be 90.3375pt on input line 131.
-Package marginnote Info: Margin note 2.5 is on absolute page 2 on input line 13
 2.
 Package marginnote Info: right page because not two side mode on input line 132
 .
 Package marginnote Info: xpos seems to be 90.3375pt on input line 132.
+Package marginnote Info: Margin note 2.4 is on absolute page 2 on input line 13
+3.
+Package marginnote Info: right page because not two side mode on input line 133
+.
+Package marginnote Info: xpos seems to be 90.3375pt on input line 133.
+Package marginnote Info: Margin note 2.5 is on absolute page 2 on input line 13
+4.
+Package marginnote Info: right page because not two side mode on input line 134
+.
+Package marginnote Info: xpos seems to be 90.3375pt on input line 134.
 Package marginnote Info: Margin note 2.6 is on absolute page 2 on input line 13
+5.
+Package marginnote Info: right page because not two side mode on input line 135
+.
+Package marginnote Info: xpos seems to be 90.3375pt on input line 135.
+Package marginnote Info: Margin note 2.7 is on absolute page 2 on input line 13
 6.
 Package marginnote Info: right page because not two side mode on input line 136
 .
 Package marginnote Info: xpos seems to be 90.3375pt on input line 136.
-Package marginnote Info: Margin note 2.7 is on absolute page 2 on input line 13
-7.
-Package marginnote Info: right page because not two side mode on input line 137
+Package marginnote Info: Margin note 2.8 is on absolute page 2 on input line 14
+0.
+Package marginnote Info: right page because not two side mode on input line 140
 .
-Package marginnote Info: xpos seems to be 90.3375pt on input line 137.
-Package marginnote Info: Margin note 2.8 is on absolute page 2 on input line 13
-8.
-Package marginnote Info: right page because not two side mode on input line 138
+Package marginnote Info: xpos seems to be 90.3375pt on input line 140.
+Package marginnote Info: Margin note 2.9 is on absolute page 2 on input line 14
+1.
+Package marginnote Info: right page because not two side mode on input line 141
 .
-Package marginnote Info: xpos seems to be 90.3375pt on input line 138.
+Package marginnote Info: xpos seems to be 90.3375pt on input line 141.
+Package marginnote Info: Margin note 2.10 is on absolute page 2 on input line 1
+42.
+Package marginnote Info: right page because not two side mode on input line 142
+.
+Package marginnote Info: xpos seems to be 90.3375pt on input line 142.
  [2]
-Overfull \hbox (55.64583pt too wide) in paragraph at lines 169--170
+Overfull \hbox (55.64583pt too wide) in paragraph at lines 173--174
 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
@@ -663,10 +673,10 @@ Package rerunfilecheck Info: File `YangJunhui_CV_202411.out' has not changed.
 ### simple group (level 1) entered at line 80 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 15764 strings out of 475060
- 297368 string characters out of 5767996
+ 15766 strings out of 475060
+ 297391 string characters out of 5767996
  1934667 words of memory out of 5000000
- 37459 multiletter control sequences out of 15000+600000
+ 37461 multiletter control sequences out of 15000+600000
  559370 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  79i,9n,102p,1017b,401s stack positions out of 10000i,1000n,20000p,200000b,200000s
